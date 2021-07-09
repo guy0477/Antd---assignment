@@ -1,0 +1,23 @@
+@import '~antd/dist/antd.css';
+
+.layout {
+    background-color: white;
+}
+
+.header {
+    background-color: lightblue;
+    margin: 0px;
+    padding: 10px
+}
+
+.content {
+    background-color: white;
+    margin: 10px 10px 50px 10px;
+    padding: 10px
+}
+
+.footer {
+    background-color: beige;
+    margin: 0px;
+
+}
