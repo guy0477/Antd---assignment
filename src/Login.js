@@ -14,7 +14,7 @@ function Login(){
   };
 
   return (
-    <Form
+    <StyledForm
       name="basic"
       labelCol={{
         span: 7,
@@ -76,8 +76,11 @@ function Login(){
           Submit
         </Button>
       </Form.Item>
-    </Form>
+    </StyledForm>
   );
 };
+const StyledForm = styled(Form)`
+padding:50px 0 0 100px;
 
+`;
 export default Login;
